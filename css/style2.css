@@ -57,6 +57,16 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E42D27', endColorstr='#21811E',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+#videoBg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
 .wrapper {
     position: absolute;
     top: 0;
@@ -64,6 +74,9 @@ body {
     left: 0;
     right: 0;
     overflow-x: HIDDEN;
+    background-image: url(“../images/loopgifPS.gif");
+    background-repeat: no-repeat;  
+    background-size: cover;
 }
 
 a {
